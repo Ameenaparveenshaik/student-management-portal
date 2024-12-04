@@ -1,0 +1,54 @@
+/* Add Student Page Styles */
+.add-student-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-student-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .add-student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-student-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .add-student-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-student-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-student-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-student-form button:active {
+    transform: scale(0.98);
+  }
+  
